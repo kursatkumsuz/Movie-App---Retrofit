@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         displayedList = ArrayList()
         // Functions
         loadMovie()
-        searchCoin()
+        searchView()
         //RecyclerView
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
 
@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun searchCoin()
+    private fun searchView()
     {
         binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
             override fun onQueryTextSubmit(p0: String?): Boolean {
