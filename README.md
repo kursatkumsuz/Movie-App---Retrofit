@@ -1,5 +1,5 @@
 # Movie-App
-Movie app is written using Kotlin with MVP Pattern , Retrofit and Coil
+Movie app is written using Kotlin with Retrofit and Coil
 
 ## 📸 Screenshots
 <pre>
