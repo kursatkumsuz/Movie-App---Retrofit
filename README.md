@@ -8,5 +8,10 @@ Movie app is written using Kotlin with Retrofit and Coil
 </pre>
 
 ## Libraries
+*  Room
+*  RxJava
+*  Coroutines
 *  Retrofit
 *  Coil
+*  LiveData
+*  Navigation
