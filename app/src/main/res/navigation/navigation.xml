@@ -22,5 +22,8 @@
         <action
             android:id="@+id/action_detailFragment_to_feedFragment"
             app:destination="@id/feedFragment" />
+        <argument
+            android:name="key"
+            app:argType="integer" />
     </fragment>
 </navigation>
