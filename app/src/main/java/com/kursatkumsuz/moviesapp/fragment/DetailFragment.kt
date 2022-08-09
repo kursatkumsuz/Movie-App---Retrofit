@@ -54,7 +54,7 @@ class DetailFragment : Fragment() {
                 binding.imageViewTwo.load(movie.image[0])
                 binding.titleText.text = movie.title
                 binding.overviewText.text = movie.plot
-                adapter = ImageRecyclerViewAdapter(movie.image)
+                adapter = ImageRecyclerViewAdapter(movie.image , movie.primaryKey)
                 binding.imageRecyclerView.adapter = adapter
             }
         })
