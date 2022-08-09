@@ -35,7 +35,6 @@ class FeedViewModel(application: Application) : BaseViewModel(application) {
         launch {
             val movies = MovieDataBase(getApplication()).movieDao().getAllMovies()
             showMovies(movies)
-            Toast.makeText(getApplication() , "FROM SQL" , Toast.LENGTH_LONG).show()
         }
     }
 
@@ -47,7 +46,6 @@ class FeedViewModel(application: Application) : BaseViewModel(application) {
                 .subscribeWith(object : DisposableSingleObserver<List<MovieModel>>() {
                     override fun onSuccess(t: List<MovieModel>) {
                         storeInSqLite(t)
-                        Toast.makeText(getApplication() , "FROM INTERNET" , Toast.LENGTH_LONG).show()
                     }
 
                     override fun onError(e: Throwable) {
