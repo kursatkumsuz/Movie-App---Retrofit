@@ -25,5 +25,20 @@
         <argument
             android:name="key"
             app:argType="integer" />
+        <action
+            android:id="@+id/action_detailFragment_to_popUpFragment"
+            app:destination="@id/popUpFragment" />
     </fragment>
+    <dialog
+        android:id="@+id/popUpFragment"
+        android:name="com.kursatkumsuz.moviesapp.fragment.PopUpFragment"
+        android:label="fragment_pop_up"
+        tools:layout="@layout/fragment_pop_up" >
+        <argument
+            android:name="key"
+            app:argType="integer" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </dialog>
 </navigation>
