@@ -13,3 +13,5 @@ Movie app is written using Kotlin with Retrofit and Coil
 *  Coroutines
 *  Retrofit
 *  Coil
+*  LiveData
+*  Navigation
