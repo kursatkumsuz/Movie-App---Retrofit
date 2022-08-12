@@ -1,4 +1,4 @@
-# Movie-App (Work in progress)
+# Movie-App 
 Movie app is written using Kotlin with Retrofit and Coil
 
 ## 📸 GIF
